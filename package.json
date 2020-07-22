@@ -1,0 +1,34 @@
+{
+  "name": "moleculer-db-adapter-arangodb",
+  "version": "0.0.1",
+  "description": "Moleculer DB Adapter for ArangoDB",
+  "main": "build",
+  "repository": "https://github.com/TylerGarlick/moleculer-db-adapter-arangodb.git",
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch-all"
+  },
+  "dependencies": {
+    "arangojs": "^6.14.1",
+    "moleculer": "^0.14.8",
+    "moleculer-db": "^0.8.9",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.5",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true
+  }
+}
